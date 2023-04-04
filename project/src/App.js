@@ -7,26 +7,16 @@ import {
   Link,
   Routes
 } from "react-router-dom";
-import Home from "./view/home/Home";
-import Main from "./view/main/Main";
-
-
+// import Home from "./view/home/Home";
+// import Main from "./view/main/Main";
+import Header from "./common/Header_Nav"
 
 function App() {
   return (
     <BrowserRouter>
-      <div>
-        <nav>
-          <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/main">Main</Link></li>
-          </ul>
-        </nav>
+      <Header />
         <Routes>
-          <Route path="/" element={<Home />}/>
-          <Route path="/main" element={<Main />}/>
         </Routes>
-      </div>
     </BrowserRouter>
   );
 }
