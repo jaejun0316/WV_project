@@ -1,0 +1,72 @@
+## 팀프로젝트 기본 확장
+---
+- ESLint
+- Prettier
+- Material Icon Theme
+    * 맘에 안들더라도 이번 프로젝트는 이걸로 통일 합시다...
+
+### eslint 사용법
+* 
+* npm install -D eslint
+>  1. How would you like to use ESLint? <br/>
+> `To check syntax, find problems, and enforce code style`을 선택 <br/>
+> 코드 스타일을 강제로 통일하기 위해서
+> 
+> 2. What type of modules does your project use?   <br/>
+> `Javascript modules`를 선택
+> 
+> 3. Which framework does your project use?    <br/>
+> `React`를 선택  <br/>
+> 
+> 4. Does your project use TypeScript? <br/>
+> `Yes`를 선택
+> 
+> 5. Where does your code run? <br/>
+> `Browser`를 선택    
+> 
+> 6. How would you like to define a style for your project?    <br/>
+> `Use a popular style guide`를 선택
+> 
+> 7. Which style guide do you want to follow?  <br/>
+> `Standard`를 선택
+> 
+> 8. What format do you want your config file to be in?    <br/>
+> ` Json`을 선택
+> 
+> 9. Would you like to install them now?   <br/>
+> `yes`를 선택    <br/>
+> 7에서 선택한 규칙 관련 + ts 등을 설치
+> 
+> 10. Which package manager do you want to use?
+> `npm`을 선택합니다
+> 여기도 자유지만, npx create-react-app으로 프로젝트를 생성했기 때문에 npm을 추천
+
+---
+
+### Prettier 설정법
+1. VS Code Settings : JavaScript Format
+2. VS Code Settings : Format On Save (선택)
+
+3.  Editor: Default Formatter 검색 후
+4. Prettier - Code formatter 선택
+
+### 그 외.. 유용한 확장
+1. ES7 React / Redux / GraphQL / React-Native snippets
+
+2. Setting Synk <br/>
+- 자신이 설정한 설정과 확장등을 따로 관리 할 수 있는 확장
+    * 설정법
+    <[Synk Setting](https://k0102575.github.io/articles/2020-04/settings-sync)>
+    <br>Jaejun-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 <br/>
+        * *다만 유지관리 되지 않으므로 언제까지 쓰일지는 알 수 없음*
+3. Auto Rename Tag, Auto Rename Tag
+* 이름 그대로
+
+4. Git Graph
+* 리포지토리의 Git 그래프를 보고 그래프에서 Git 작업을 쉽게 수행할수 있음
+
+5. Path Intellisense
+* 파일 경로 자동 완성
+
+6. Highlight Matching Tag
+* 일치 태그 강조

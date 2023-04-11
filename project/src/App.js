@@ -17,7 +17,6 @@ import UploadPage from "./pages/UploadPage";
 function App() {
   return (
     <BrowserRouter>
-      <div>
         <header>
           <h1>출석부</h1>
         </header>
@@ -43,7 +42,6 @@ function App() {
           <Route path="/UpdatePage" element={<UpdatePage />} />
           <Route path="/UploadPage" element={<UploadPage />} />
         </Routes>
-      </div>
     </BrowserRouter>
   );
 }
